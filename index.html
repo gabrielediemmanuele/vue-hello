@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Vue Hello</title>
+    <!--Meta Info-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Gabriele Di Emmanuele" />
+    <meta name="description" content="Vue Hello" />
+
+    <!-- CSS -->
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+
+    <!-- Vue JS-->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <h1>{{ message }}</h1>
+      <img v-bind:src="newImage" alt="" width="500" />
+    </div>
+    <!-- JS Script -->
+    <script type="text/javascript" src="./main.js"></script>
+  </body>
+</html>
